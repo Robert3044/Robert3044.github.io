@@ -1,1 +1,0 @@
-<img src="./BBB.jpg"width="800" height="600">

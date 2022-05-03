@@ -1,1 +1,0 @@
-<embed src="./666.mp3"hidden="true"atuostart="true"loop="true">
