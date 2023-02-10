@@ -1,0 +1,9 @@
+1.首次使用
+git config --global user.name "Robert"
+git config --global user.email "Robert1025@qq.com"
+2.上传文件
+初始化：git init
+添加上传当前文件夹下的所有文件：git add .
+上传修改注释，就是说明一下这次上传修改了哪些地方：git commit -m "1025"  
+git remote add origin https://gitee.com/Robert1025/website.git
+开启强制上传：git push -u origin master -f
