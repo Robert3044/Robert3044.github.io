@@ -3,6 +3,27 @@
 <head>
 <meta charset="utf-8">
 <title>Robert's跨年彩蛋</title>
+<SCRIPT language=JavaScript> 
+ 
+function password() { 
+var testV = 1; 
+var pass1 = prompt('此页面仅特定成员可见，请输入密码以查看:',''); 
+while (testV < 3) { 
+if (!pass1) 
+history.go(-1); 
+if (pass1 == "5201025") { 
+alert('密码正确!'); 
+break; 
+} 
+testV+=-1; 
+var pass1 = prompt('密码错误!请重新输入:'); 
+} 
+if (pass1!="password" & testV ==3) 
+history.go(-1); 
+return " "; 
+} 
+document.write(password()); 
+</SCRIPT>
 
 <style>
 html,body{
