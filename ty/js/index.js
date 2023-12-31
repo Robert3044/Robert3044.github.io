@@ -9,7 +9,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 3||新年快乐唐媛|这个跨年仪式|希望你喜欢|2024|HAPPY NEW YEAR|Yours Robert|');
+      S.UI.simulate('|#countdown 3|2024了！|祝唐媛|新年快乐|这个|跨年仪式|希望你喜欢|Yours|Robert|');
     }
 
     S.Drawing.loop(function () {
